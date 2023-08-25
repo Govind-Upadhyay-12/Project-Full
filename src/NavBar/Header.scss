@@ -1,0 +1,176 @@
+.header{
+    display: flex;
+    background-color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    .content{
+        margin-left: 12rem;
+        display: flex;
+        gap: 2.3rem;
+        .home{
+            .ho{
+                text-decoration: none;
+                h2{
+                    color: white;
+                    font-size: 22px;
+                    font-weight: 400;
+                    
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    &:hover{
+                        color:#edbafd;
+                    }
+                   
+    
+                }
+            }
+           
+        }
+        .cate{
+            .categories{
+                text-decoration: none;
+                h2{
+                    color: white;
+                    font-weight: 400;
+                    text-decoration: none;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    font-size: 22px;
+                    &:hover{
+                        color:#edbafd;
+                      }
+                } 
+            }
+            
+                
+            
+        }
+        .shop{
+            .sh{
+                text-decoration: none;
+                h2{
+                    color: white;
+                    font-weight: 400;
+                    white-space: nowrap;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    font-size: 22px;
+                    &:hover{
+                        color:#edbafd;
+                      }
+                }
+            }
+            
+        }
+        .order{
+            .ord{
+                text-decoration: none;
+                h2{
+                    color: white;
+                    font-weight: 400;
+                    white-space: nowrap;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    font-size: 22px;
+                    &:hover{
+                        color:#edbafd;
+                      }
+                }
+            }
+           
+        }
+        .signin{
+            .sign{
+                text-decoration: none;
+                h2{
+                    color: white;
+                    font-weight: 400;
+                    font-size: 22px;
+                    white-space: nowrap;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    &:hover{
+                        color:#edbafd;
+                      }
+                }
+            }
+           
+        }
+    }
+    .searchhere{
+        margin-top: 1.23rem;
+        margin-left: 4rem;
+        // border:2px solid white;
+        
+        input{
+            width: 14rem;
+            height: 2rem;
+            border-radius: 10px;
+            border:2px solid white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 10px;
+        }
+    }
+    .last{
+        display: flex;
+        gap:1.5rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+
+        .setting{
+            background-color: black;
+            width: 45px;
+            height: 45px;
+            padding-left: 12px;
+            padding-bottom: -10px;
+            padding-top: 10px;
+            margin-top: -0.4rem;
+            
+            &:hover{
+              background-color: #c61aff;
+              border-radius: 60px;
+              box-shadow: inset;
+              transform: scale(1.1);
+              transition: 0.7s;
+            }
+
+           
+          
+         
+        }
+        .wishlist{
+            
+            background-color: black;
+            width: 45px;
+            height: 45px;
+            padding-left: 12px;
+            padding-bottom: -10px;
+            padding-top: 10px;
+            margin-top: -0.4rem;
+            
+            &:hover{
+              background-color: #c61aff;
+              border-radius: 60px;
+              box-shadow: inset;
+              transform: scale(1.1);
+              transition: 0.7s;
+            }
+
+            
+        }
+        .account{
+            margin-left: -0.2rem;
+            background-color: black;
+            width: 45px;
+            height: 45px;
+            padding-left: 15px;
+            padding-bottom: -10px;
+            padding-top: 10px;
+            margin-top: -0.4rem;
+            
+            &:hover{
+              background-color: #c61aff;
+              border-radius: 60px;
+              box-shadow: inset;
+              transform: scale(1.1);
+              transition: 0.7s;
+            }
+
+        }
+    }
+}
